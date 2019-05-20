@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-project01": {
+    "my-dream-p01": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-project01",
+            "outputPath": "dist/my-dream-p01",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -59,18 +59,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-project01:build"
+            "browserTarget": "my-dream-p01:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "my-project01:build:production"
+              "browserTarget": "my-dream-p01:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-project01:build"
+            "browserTarget": "my-dream-p01:build"
           }
         },
         "test": {
@@ -104,7 +104,7 @@
         }
       }
     },
-    "my-project01-e2e": {
+    "my-dream-p01-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -113,11 +113,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "my-project01:serve"
+            "devServerTarget": "my-dream-p01:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "my-project01:serve:production"
+              "devServerTarget": "my-dream-p01:serve:production"
             }
           }
         },
@@ -133,5 +133,5 @@
       }
     }
   },
-  "defaultProject": "my-project01"
+  "defaultProject": "my-dream-p01"
 }
